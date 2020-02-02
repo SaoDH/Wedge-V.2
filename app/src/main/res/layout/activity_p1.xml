@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityP1"
+    android:background="@color/c1">
+    <FrameLayout
+        android:id="@+id/fl_p1_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/activity_map"></include>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/fl_p1_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp">
+        <include
+            android:id="@+id/p1_toolbar"
+            layout="@layout/toolbar"></include>
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fl_p1_menu_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include
+            layout="@layout/menu_bottom"></include>
+    </FrameLayout>
+</RelativeLayout>

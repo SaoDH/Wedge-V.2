@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="VectorDrawableCompat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/v_menu_bottom_sombra"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/sombra_menu_bottom"/>
+
+    <LinearLayout
+        android:id="@+id/ll_menu_bottom_colorbar"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/v_menu_bottom_c2"
+            style="@style/LlStyle"
+            android:background="@color/c2"/>
+        <View
+            android:id="@+id/v_menu_bottom_c3"
+            style="@style/LlStyle"
+            android:background="@color/c3" />
+        <View
+            android:id="@+id/v_menu_bottom_c4"
+            style="@style/LlStyle"
+            android:background="@color/c4" />
+        <View
+            android:id="@+id/v_menu_bottom_c5"
+            style="@style/LlStyle"
+            android:background="@color/c5"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_menu_bottom_bt"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:background="@color/c1">
+
+        <ImageButton
+            android:id="@+id/bt_menu_bottom_mapa"
+            style="@style/BtMenuBottomStyle"
+            app:srcCompat="@drawable/ic_mapa"
+            android:contentDescription="@string/desc" />
+
+
+        <ImageButton
+            android:id="@+id/bt_menu_bottom_noticias"
+            style="@style/BtMenuBottomStyle"
+            app:srcCompat="@drawable/ic_noticias"
+            android:contentDescription="@string/desc" />
+
+        <ImageButton
+            android:id="@+id/bt_menu_bottom_datos"
+            style="@style/BtMenuBottomStyle"
+            app:srcCompat="@drawable/ic_datos"
+            android:contentDescription="@string/desc" />
+
+        <ImageButton
+            android:id="@+id/bt_menu_bottom_perfil"
+            style="@style/BtMenuBottomStyle"
+            app:srcCompat="@drawable/ic_perfil"
+            android:contentDescription="@string/desc"  />
+    </LinearLayout>
+
+</LinearLayout>

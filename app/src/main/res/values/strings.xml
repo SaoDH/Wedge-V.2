@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Wedge</string>
+    <string name="desc">desc</string>
+    <string name="vacio" />
+    <string name="tx_tv_inicio">CONTINUR CON</string>
+    <string name="tx_bt_inicio_email">Email</string>
+    <string name="tx_bt_inicio_google">Google</string>
+    <!---->
+    <string name="tx_bt_login_in">Log In</string>
+    <string name="tx_bt_login_up">Log Up</string>
+    <string name="tx_tv_login_fP">Has olvidado tu contraseña?</string>
+    <string name="tx_bt_login_enter">Entrar</string>
+    <string name="tx_ed_login_pass">Password</string>
+    <string name="tx_ed_login_name">Name</string>
+    <!---->
+    <string name="tx_ed_logup_passRep">Repeat Password</string>
+    <string name="tx_ed_logup_email">Email</string>
+    <string name="tx_tv_logup_yaReg">Ya estoy registrado</string>
+    <string name="title_activity_map">Map</string>
+</resources>

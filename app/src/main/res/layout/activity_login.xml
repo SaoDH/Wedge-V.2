@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="o"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLogin"
+    android:background="@color/c1">
+    <LinearLayout
+        android:id="@+id/ll_login_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/bt_login_in"
+            style="@style/LlStyle"
+            android:background="@color/white"
+            android:textColor="@color/c1"
+            android:text="@string/tx_bt_login_in">
+        </Button>
+        <Button
+            android:id="@+id/bt_login_up"
+            style="@style/LlStyle"
+            android:background="@color/colorSombraLogin"
+            android:textColor="@color/c1"
+            android:text="@string/tx_bt_login_up"
+            android:onClick="goLogup"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_login_v"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/ll_login_colorbar"
+            style="@style/LlStyle"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/v_c2"
+                style="@style/LlStyle"
+                android:background="@color/c2"/>
+            <View
+                android:id="@+id/v_c3"
+                style="@style/LlStyle"
+                android:background="@color/c3" />
+            <View
+                android:id="@+id/v_c4"
+                style="@style/LlStyle"
+                android:background="@color/c4" />
+            <View
+                android:id="@+id/v_c5"
+                style="@style/LlStyle"
+                android:background="@color/c5"  />
+        </LinearLayout>
+        <View
+            android:id="@+id/ll_login_colorbar2"
+            style="@style/LlStyle">
+        </View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_login_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_below="@+id/ll_login_v"
+        android:layout_marginTop="40dp">
+        <EditText
+            android:id="@+id/ed_login_name"
+            style="@style/EdLoginStyle"
+            android:inputType="textPersonName"
+            android:hint="@string/tx_ed_login_name"
+            android:textColorHint="@color/c1"
+            tools:ignore="Autofill" />
+        <EditText
+            android:id="@+id/ed_login_pass"
+            style="@style/EdLoginStyle"
+            android:hint="@string/tx_ed_login_pass"
+            android:inputType="textPersonName"
+            tools:ignore="Autofill" />
+        <TextView
+            android:id="@+id/tv_login_fP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/tx_tv_login_fP"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/bt_login_enter"
+            style="@style/EdLoginStyle"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_inicio_email_dr"
+            android:onClick="goP1"
+            android:text="@string/tx_bt_login_enter" />
+    </LinearLayout>
+</RelativeLayout>

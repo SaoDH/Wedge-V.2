@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFEEAA</color>
+    <color name="colorPrimaryDark">#14000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorNotifybar">#14000000</color>
+    <color name="colorToolbar">#14000000</color>
+    <!---->
+    <color name="transparente">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <!---->
+    <color name="c1">#4B606B</color>
+    <color name="c1_1">#445461</color>
+    <color name="c2">#96504A</color>
+    <color name="c2_1">#6E3B35</color>
+    <color name="c3">#F89C73</color>
+    <color name="c3_1">#B87254</color>
+    <color name="c4">#F3B274</color>
+    <color name="c4_1">#C4905E</color>
+    <color name="c5">#FFEEAA</color>
+    <color name="c5_1">#C7BA85</color>
+    <!---->
+    <color name="sombra_start">#57000000</color>
+    <color name="sombra_center">#12000000</color>
+    <color name="sombra_end">#004B606B</color>
+    <!---->
+    <color name="colorSombraLogin">#DDFFFFFF</color>
+</resources>

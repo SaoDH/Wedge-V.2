@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="o"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityInicio"
+    android:background="@color/c1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.99"
+        android:contentDescription="@string/desc"
+        android:scaleType="centerCrop"
+        android:src="@drawable/forest"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_inicio_nombre"
+            style="@style/TvInicioStyle"
+            android:text="@string/app_name"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/tv_inicio"
+            style="@style/TvInicioStyle"
+            android:layout_marginTop="120dp"
+            android:text="@string/tx_tv_inicio"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/bt_inicio_email"
+            style="@style/BtInicioStyle"
+            android:background="@drawable/bt_inicio_email_dr"
+            android:text="@string/tx_bt_inicio_email"
+            android:onClick="goLogin" />
+
+        <Button
+            android:id="@+id/bt_inicio_google"
+            style="@style/BtInicioStyle"
+            android:background="@drawable/bt_inicio_google_dr"
+            android:textColor="@color/c1"
+            android:text="@string/tx_bt_inicio_google"
+            android:onClick="goGoogle" />
+    </LinearLayout>
+</RelativeLayout>
